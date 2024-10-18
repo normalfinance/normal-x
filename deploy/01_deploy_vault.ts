@@ -4,11 +4,9 @@ import { DeployFunction } from "hardhat-deploy/types";
 const func: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {
   const accounts = await hre.getUnnamedAccounts();
 
-  await hre.deployments.deploy("Greeter", {
+  await hre.deployments.deploy("Vault", {
     from: accounts[0],
-    args: [
-      "Hello, Hardhat!"
-    ],
+    args: [accounts[1], accounts[2]],
     log: true,
     estimateGasExtra: 1000000,
   });

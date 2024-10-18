@@ -1,8 +1,8 @@
 {
-  "name": "@0xflair/evm-contract-scaffold",
-  "version": "1.1.0",
-  "description": "A Typescript Hardhat-based template to develop evm-based smart contracts with all the tooling you need.",
-  "author": "Flair.Finance",
+  "name": "@normalfinance/normal-x",
+  "version": "0.1.0",
+  "description": "",
+  "author": "Normal Finance, Inc.",
   "license": "MIT",
   "private": false,
   "publishConfig": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/0xflair/evm-contract-scaffold.git"
+    "url": "git+https://github.com/normalfinance/normal-x.git"
   },
   "main": "typechain/index.ts",
   "module": "typechain/index.ts",
@@ -49,7 +49,8 @@
     "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
     "@nomiclabs/hardhat-etherscan": "^3.0.3",
     "@nomiclabs/hardhat-waffle": "^2.0.3",
-    "@openzeppelin/contracts": "^4.5.0",
+    "@openzeppelin/contracts": "^5.0.2",
+    "@openzeppelin/contracts-upgradeable": "^5.1.0",
     "@semantic-release/changelog": "^6.0.1",
     "@semantic-release/commit-analyzer": "^9.0.2",
     "@semantic-release/git": "^10.0.1",
@@ -93,5 +94,6 @@
     "typechain": "^5.2.0",
     "typescript": "^4.6.2",
     "web3": "^1.7.1"
-  }
+  },
+  "dependencies": {}
 }

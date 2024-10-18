@@ -1,4 +1,4 @@
-# EVM-based Smart Contract Scaffold
+# Normal X
 
 A Typescript [Hardhat-based](https://hardhat.org/) template to develop evm-based smart contracts with all the tooling you need.
 
